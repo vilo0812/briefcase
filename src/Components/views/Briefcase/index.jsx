@@ -130,21 +130,11 @@ const scroll = () =>{
 						 </Box>
 				 		</Grid>
 				 	</Box>
-				 </Typography>
-				 
+				 	</Typography>
 		      	</Grid>
 	      	</Box>
 	    <Box>
-      		<Grid 
-	          container
-			  direction="row"
-			  justify="center"
-			  alignItems="center"
-			 >
-			 	<Box>
-			 		{children}
-			 	</Box>
-			 </Grid>
+			 {children}
       	</Box>
       	
 	</Fragment>
