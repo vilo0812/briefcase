@@ -6,13 +6,19 @@ import {
 	Box,
 	Typography
 } from '@material-ui/core';
+//images
+import {logoViloWeb} from "./../../../Constants/images"
+import {backgroundViloWeb} from "./../../../Constants/images"
+//icons
 import HomeIcon from '@material-ui/icons/Home';
 import AccessibilityNewIcon from '@material-ui/icons/AccessibilityNew';
 import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import BookIcon from '@material-ui/icons/Book';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
+//react router
 import {Link} from 'react-router-dom'
+//styles
 const useStyles = makeStyles((theme) => ({
 	icon:{
 	color:'inherit',
@@ -46,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
   },
   backgroundAvatar:{
   	margin: 0,
-    backgroundImage: 'url("./images/tec.jpg")',
+    backgroundImage: `url(${backgroundViloWeb})`,
     backgroundSize: 'cover',
     backgroundPosition : 'center'
   }
@@ -68,7 +74,7 @@ const scroll = () =>{
 			  alignItems="center"
 			 > 
 			 <span className={classes.avatar}>
-	            <Avatar className={classes.avatarLarge} alt="Remy Sharp" src="./images/vilo.jpg" />
+	            <Avatar className={classes.avatarLarge} alt="Remy Sharp" src={logoViloWeb} />
 			 </span>
 	      	</Grid>
       	</Box>

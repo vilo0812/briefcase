@@ -5,12 +5,12 @@ import {
   Switch,
 } from "react-router-dom";
 import Briefcase from './../Components/views/Briefcase'
-import DashboardBox from './../Components/base/briefcase/DashboardBox.jsx'
-import HabilitiesBox from './../Components/base/briefcase/HabilitiesBox.jsx'
-import studiesBox from './../Components/base/briefcase/StudiesBox.jsx'
-import ExperiencesBox from './../Components/base/briefcase/ExperiencespBox.jsx'
-import CertificatesBox from './../Components/base/briefcase/CertificatesBox.jsx'
-import ContactBox from './../Components/base/briefcase/ContactBox.jsx'
+import DashboardBox from './../Components/base/briefcase/dashboardBox'
+import HabilitiesBox from './../Components/base/briefcase/habilitiesBox'
+import studiesBox from './../Components/base/briefcase/studiesBox'
+import ExperiencesBox from './../Components/base/briefcase/experiencesBox'
+import CertificatesBox from './../Components/base/briefcase/certificatesBox'
+import ContactBox from './../Components/base/briefcase/contactBox'
 import Navbar from './../Components/core/Navbar'
 import Footer from './../Components/core/Footer'
 const Routes= () => {
