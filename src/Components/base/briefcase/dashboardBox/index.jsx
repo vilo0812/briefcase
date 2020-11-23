@@ -98,18 +98,18 @@ const DashboardBox = () => {
 								Perfil Personal
 								</Typography>
 								<Typography variant="body2" component="p">
-								Soy Gabriel Viloria, titular de C.I : V-27.167.028,
-								naci el 12/08/1998 en un pequeño pueblo del estado Aragua-Venezuela,
+								Soy Gabriel Viloria, titular de la cédula de identidad: V-27.167.028,
+								nací el 12/08/1998 en un pequeño pueblo del estado Aragua-Venezuela,
 								soy ingeniero en sistemas egresado de la Univerdad 
 								Experimental Rómulo Gallegos,
-								en la cual me fui desarrollando adquiriendo otros conocimientos en el ambito tecnológico, donde aprendí a desarrollar, volviéndome así un programador, en  lenguajes de programación tales como : 
+								en la cual me fui desarrollando adquiriendo otros conocimientos en el ámbito tecnológico, donde aprendí a desarrollar, volviéndome así un programador, en  lenguajes de programación tales como : 
 								<ul>
 									<li>javascript</li>
 									<li>php</li>
 									<li>python</li>
 									<li>c#</li>
 								</ul>							
-								Obteniendo así conocimientos avanzados en    algunas de las más populares plantillas de trabajo (frameworks), de  lenguajes de programación; php, c# y javascript como son:
+								Obteniendo así conocimientos avanzados en    algunas de las más populares plantillas de trabajo (frameworks), de  lenguajes de programación; php, c# y JavaScript como son:
 								<ul>
 									<li>vue</li>
 									<li>laravel</li>
@@ -119,6 +119,7 @@ const DashboardBox = () => {
 								Manejo básico de base de datos:
 								<ul>
 									<li>MySQL</li>
+									<li>MsSQL</li>
 								</ul>
 								</Typography>
 							</CardContent>
