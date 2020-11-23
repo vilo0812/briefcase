@@ -5,6 +5,7 @@ import {
   Switch,
 } from "react-router-dom";
 import Briefcase from './../Components/views/Briefcase'
+import ProjectsBox from './../Components/base/briefcase/projectsBox'
 import DashboardBox from './../Components/base/briefcase/dashboardBox'
 import HabilitiesBox from './../Components/base/briefcase/habilitiesBox'
 import studiesBox from './../Components/base/briefcase/studiesBox'
@@ -20,6 +21,7 @@ const Routes= () => {
 			<Navbar/>
 				<Switch>
 					<Briefcase>
+				        <Route path="/proyectos" component={ProjectsBox} exact/>
 				        <Route path="/contacto" component={ContactBox} exact/>
 				        <Route path="/certificados" component={CertificatesBox} exact/>
 				        <Route path="/experiencias" component={ExperiencesBox} exact/>

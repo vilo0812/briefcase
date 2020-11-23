@@ -87,7 +87,7 @@ const toggleDrawer = (anchor, open) => (event) => {
     justify="flex-start"
     alignItems="stretch"
     >
-      <SideBar toogleSideBar={toogleSideBar} toggleDrawer={toggleDrawer}/>
+      <SideBar toogleSideBar={toogleSideBar} toggleDrawer={toggleDrawer} tool={tool}/>
     </Grid>
 </Fragment>
 	);

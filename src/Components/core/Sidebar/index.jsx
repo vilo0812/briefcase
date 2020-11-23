@@ -1,4 +1,6 @@
 import React from 'react'
+//react router
+import {Link} from 'react-router-dom'
 import {
 	List,
 	ListItem,
@@ -8,10 +10,11 @@ import {
   Drawer,
 } from '@material-ui/core'
 import HomeIcon from '@material-ui/icons/Home';
-import AccessibilityNewIcon from '@material-ui/icons/AccessibilityNew';
+import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
+import SportsHandballIcon from '@material-ui/icons/SportsHandball';
+import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
-import BookIcon from '@material-ui/icons/Book';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 //start useStyles
 const drawerWidth = 240;  
@@ -53,7 +56,7 @@ const drawerWidth = 240;
     toolbar: theme.mixins.toolbar,
 	}))
 //end useStyles
-const SideBar = ({toogleSideBar,toggleDrawer}) => {
+const SideBar = ({toogleSideBar,toggleDrawer,tool}) => {
 //start uses
 	const classes = useStyles()
 //start uses
@@ -68,43 +71,63 @@ const SideBar = ({toogleSideBar,toggleDrawer}) => {
     variant="temporary"
     >
         <List component="ul" className={classes.list}>
-        <ListItem button className={classes.itemButton}>
-          <HomeIcon/>
-          <ListItemText className={classes.itemText}>
-            Inicio
-          </ListItemText>
-        </ListItem>
+        <Link to="/">
+          <ListItem button className={classes.itemButton} onClick={() => tool()}>
+            <HomeIcon/>
+            <ListItemText className={classes.itemText}>
+              Inicio
+            </ListItemText>
+          </ListItem>
+        </Link>
         <Divider light={true}/>
-        <ListItem button className={classes.itemButton}>
-          <AccessibilityNewIcon/>
-          <ListItemText className={classes.itemText}>
-            Habilidades
-          </ListItemText>
-        </ListItem>
-        <ListItem button className={classes.itemButton}>
-          <BookIcon/>
-          <ListItemText className={classes.itemText}>
-            Estudios
-          </ListItemText>
-        </ListItem>
-        <ListItem button className={classes.itemButton}>
-          <AssignmentIndIcon/>
-          <ListItemText className={classes.itemText}>
-            Experiencias
-          </ListItemText>
-        </ListItem>
-        <ListItem button className={classes.itemButton}>
-          <LibraryBooksIcon/>
-          <ListItemText className={classes.itemText}>
-            Certificados
-          </ListItemText>
-        </ListItem>
-        <ListItem button className={classes.itemButton}>
-          <ContactPhoneIcon/>
-          <ListItemText className={classes.itemText}>
-            Contacto
-          </ListItemText>
-        </ListItem>
+        <Link to="/proyectos">
+          <ListItem button className={classes.itemButton}>
+            <WorkOutlineIcon/>
+            <ListItemText className={classes.itemText}>
+              Proyectos
+            </ListItemText>
+          </ListItem>
+        </Link>
+        <Link to="/habilidades">
+          <ListItem button className={classes.itemButton}>
+              <SportsHandballIcon/>
+              <ListItemText className={classes.itemText}>
+                Habilidades
+              </ListItemText>
+          </ListItem>
+        </Link>
+        <Link to="/estudios">
+          <ListItem button className={classes.itemButton}>
+            <CastForEducationIcon/>
+            <ListItemText className={classes.itemText}>
+              Estudios
+            </ListItemText>
+          </ListItem>
+        </Link>
+        <Link to="/experiencias">
+          <ListItem button className={classes.itemButton}>
+            <AssignmentIndIcon/>
+            <ListItemText className={classes.itemText}>
+              Experiencias
+            </ListItemText>
+          </ListItem>
+        </Link>
+        <Link to="/certificados">
+          <ListItem button className={classes.itemButton}>
+            <LibraryBooksIcon/>
+            <ListItemText className={classes.itemText}>
+              Certificados
+            </ListItemText>
+          </ListItem>
+        </Link>
+        <Link to="/contacto">
+          <ListItem button className={classes.itemButton}>
+            <ContactPhoneIcon/>
+            <ListItemText className={classes.itemText}>
+              Contacto
+            </ListItemText>
+          </ListItem>
+        </Link>
         <Divider></Divider>
       </List>
     </Drawer>

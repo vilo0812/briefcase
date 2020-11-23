@@ -1,9 +1,12 @@
 import React,{Fragment} from 'react'
 //img 
-import {backgroundLandscape} from "./../../../../Constants/images.js"
+// import {backgroundLandscape} from "./../../../../Constants/images.js"
+import {backgroundWelcome} from "./../../../../Constants/images.js"
 import {logoVilo} from "./../../../../Constants/images.js"
 //habilidades
 import HabilitiesBox from './../habilitiesBox'
+import StudiesBox from './../studiesBox'
+import ContactBox from './../contactBox'
 // materials
 import {
 	Card,
@@ -31,13 +34,13 @@ const useStyles = makeStyles(theme => ({
 	marginTop : '30px'
   },
   welcome:{
-	backgroundColor: 'rgba(255, 255, 255, 0.8)',
+	backgroundColor: 'rgba(255, 255, 255, 0.9)',
 	width: 550,
   },
   root: {
   	flexGrow: 1,
     width: 900,
-    backgroundImage: `url(${backgroundLandscape})`,
+    backgroundImage: `url(${backgroundWelcome})`,
     backgroundSize: 'cover',
     backgroundPosition : 'center',
     [theme.breakpoints.down('sm')]: {
@@ -94,25 +97,18 @@ const DashboardBox = () => {
 								Perfil Personal
 								</Typography>
 								<Typography variant="body2" component="p">
-								Soy Gabriel Viloria un ingeniero en sistemas,
-								mi número de cédula es: V-27.167.028,
-								nacido en 12/08/1998,
-								de edad 22 años,
-								tengo una gran pasión por el desarrollo por ello manejo múltiples áreas de conocimiento
-								en el área del desarrollo, 
-								tales como:
+								Soy Gabriel Viloria, titular de C.I : V-27.167.028,
+								naci el 12/08/1998 en un pequeño pueblo del estado Aragua-Venezuela,
+								soy ingeniero en sistemas egresado de la Univerdad 
+								Experimental Rómulo Gallegos,
+								en la cual me fui desarrollando adquiriendo otros conocimientos en el ambito tecnológico, donde aprendí a desarrollar, volviéndome así un programador, en  lenguajes de programación tales como : 
 								<ul>
-									<li>html</li>
-									<li>css</li>
 									<li>javascript</li>
 									<li>php</li>
 									<li>python</li>
 									<li>c#</li>
 								</ul>							
-								y conocimientos en algunos de los más
-								 populares  plantillas de trabajo
-								  (frameworks), de los lenguajes de
-								   programación de php, c# y javascript tales como:
+								Obteniendo así conocimientos avanzados en    algunas de las más populares plantillas de trabajo (frameworks), de  lenguajes de programación; php, c# y javascript como son:
 								<ul>
 									<li>vue</li>
 									<li>laravel</li>
@@ -135,6 +131,8 @@ const DashboardBox = () => {
 					</Grid>
 				</Paper>
 		  		<HabilitiesBox></HabilitiesBox>
+		  		<StudiesBox></StudiesBox>
+		  		<ContactBox></ContactBox>
 			</Grid>
 		  </Grow>
 		</Fragment>

@@ -11,10 +11,11 @@ import {logoViloWeb} from "./../../../Constants/images"
 import {backgroundViloWeb} from "./../../../Constants/images"
 //icons
 import HomeIcon from '@material-ui/icons/Home';
-import AccessibilityNewIcon from '@material-ui/icons/AccessibilityNew';
+import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
+import SportsHandballIcon from '@material-ui/icons/SportsHandball';
+import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
-import BookIcon from '@material-ui/icons/Book';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 //react router
 import {Link} from 'react-router-dom'
@@ -35,7 +36,6 @@ const useStyles = makeStyles((theme) => ({
   h1:{
     color : "#ffff",
     textAlign : 'center',
-    fontWeight : 'bolder'
   },
   avatarLarge: {
     width: theme.spacing(20),
@@ -61,7 +61,7 @@ const Briefcase= ({history,children}) => {
 //start useS 
 const classes = useStyles();
 //end uses
-const scroll = () =>{
+const scrolling = () =>{
 	console.log('scroll')
 }
 	return (
@@ -86,10 +86,13 @@ const scroll = () =>{
 				  alignItems="center"
 				 > 
 				 <Typography className={classes.h1} variant="h4" gutterBottom>
-					Ofrezco un trabajo honesto y de calidad para que tu  <br/>
-					empresa o negocio alcance todos sus objetivos <br/>
+				 	<i>
+					"La única forma de <br/>
+					hacer un gran trabajo,<br/>
+					es amar lo que haces"<br/>
+					</i>
 					<Typography variant="h6" gutterBottom>
-				 		Desde c#, php, javascript y python hasta laravel, vue y react
+				 		--Steve Jobs--
 				 	</Typography>
 				 	<Box mt={4}>
 					 	<Grid 
@@ -104,13 +107,18 @@ const scroll = () =>{
 					 	</Link>
 						 </Box>
 						 <Box m={2}>
-						 <Link to="/habilidades" className={classes.icon} onClick={() => scroll()}>
-					 		<AccessibilityNewIcon/>
-					 	</Link>
+							 <Link to="/proyectos" className={classes.icon}>
+						 		<WorkOutlineIcon/>
+						 	</Link>
+						 </Box>
+						 <Box m={2}>
+							 <Link to="/habilidades" className={classes.icon} onClick={() => scrolling()}>
+						 		<SportsHandballIcon/>
+						 	</Link>
 						 </Box>
 						 <Box m={2}>
 						 <Link to="/estudios" className={classes.icon}>
-					 		<BookIcon/>
+					 		<CastForEducationIcon/>
 					 	</Link>
 						 </Box>
 						 <Box m={2}>
