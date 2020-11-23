@@ -3,10 +3,11 @@ import React,{Fragment} from 'react'
 // import {backgroundLandscape} from "./../../../../Constants/images.js"
 import {backgroundWelcome} from "./../../../../Constants/images.js"
 import {logoVilo} from "./../../../../Constants/images.js"
-//habilidades
+//components
 import HabilitiesBox from './../habilitiesBox'
 import StudiesBox from './../studiesBox'
 import ContactBox from './../contactBox'
+import ExperiencesBox from './../experiencesBox/'
 // materials
 import {
 	Card,
@@ -131,6 +132,7 @@ const DashboardBox = () => {
 					</Grid>
 				</Paper>
 		  		<HabilitiesBox></HabilitiesBox>
+		  		<ExperiencesBox></ExperiencesBox>
 		  		<StudiesBox></StudiesBox>
 		  		<ContactBox></ContactBox>
 			</Grid>

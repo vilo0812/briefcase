@@ -17,6 +17,8 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import WorkIcon from '@material-ui/icons/Work';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import FacebookIcon from '@material-ui/icons/Facebook';
 //styles
 const useStyles = makeStyles(theme => ({
   avatarLarge: {
@@ -91,9 +93,6 @@ const ContactBox = () => {
 				<Paper className={classes.root}>
 					<Card className={classes.contact} variant="outline">
 						<CardContent>
-						<Typography className={classes.center} variant="h5" component="h1">
-						Contacto Personal
-						</Typography>
 						<Grid
 						  container
 						  direction="row"
@@ -124,6 +123,14 @@ const ContactBox = () => {
 								<Typography variant="body1" component="p">
 									<WorkIcon></WorkIcon>
 									<Button href="https://www.workana.com/freelancer/6b4b37aadb352059be65ae12646a2f44?ref=user_dropdown" color="primary">perfil de workana</Button>
+								</Typography>
+								<Typography variant="body1" component="p">
+									<GitHubIcon></GitHubIcon>
+									<Button href="https://github.com/vilo0812" color="primary">perfil de github</Button>
+								</Typography>
+								<Typography variant="body1" component="p">
+									<FacebookIcon></FacebookIcon>
+									<Button href="https://www.facebook.com/vilo0812" color="primary">perfil de facebook</Button>
 								</Typography>
 							</Grid>
 						</Grid>

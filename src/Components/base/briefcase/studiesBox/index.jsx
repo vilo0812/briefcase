@@ -33,7 +33,8 @@ const useStyles = makeStyles(theme => ({
   },
   studies: {
   	margin : '5px',
-  	width : '450px'
+  	width : '400px',
+  	height : '400px'
   },
   margin:{
   	marginLeft : '0.5px'
