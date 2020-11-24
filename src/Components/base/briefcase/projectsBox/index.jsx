@@ -22,6 +22,7 @@ const useStyles = makeStyles(theme => ({
   projects: {
   	margin : '5px',
   	width : '400px',
+  	minHeight : '500px'
   },
   margin:{
   	marginLeft : '0.5px'

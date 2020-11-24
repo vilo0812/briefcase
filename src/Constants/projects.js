@@ -1,4 +1,4 @@
-import {backgroundZonaEducativaLogin} from "./images.js"
+import {backgroundZonaEducativaLogin,backgroundWeatherApp,backgroundPokeApp} from "./images.js"
 const projects  = [
 	{
 		img:[
@@ -14,6 +14,36 @@ const projects  = [
 			user: "",
 			password: "",
 		}
-	}
+	},
+	{
+		img:[
+		backgroundWeatherApp
+		],
+		title:"weather app",
+		description:"Sistema que permite visualizar el clima de distintas partes del mundo",
+		github:"https://github.com/vilo0812/weather-app",
+		host:{
+			host_active: true,
+			direction: "https://viloweb-weather-app.netlify.app/",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	{
+		img:[
+		backgroundPokeApp
+		],
+		title:"poke app",
+		description:"Sistema que permite visualizar de los caracteres jugables del juego de pokemon con sus detalles",
+		github:"https://github.com/vilo0812/poke-app",
+		host:{
+			host_active: true,
+			direction: "https://viloweb-poke-app.netlify.app/",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
 ]
 export default projects;
