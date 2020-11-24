@@ -7,7 +7,9 @@ import {logoVilo} from "./../../../../Constants/images.js"
 import HabilitiesBox from './../habilitiesBox'
 import StudiesBox from './../studiesBox'
 import ContactBox from './../contactBox'
-import ExperiencesBox from './../experiencesBox/'
+import ExperiencesBox from './../experiencesBox'
+import CertificatesBox from './../certificatesBox'
+import ProjectsBox from './../projectsBox'
 // materials
 import {
 	Card,
@@ -132,9 +134,11 @@ const DashboardBox = () => {
 						</span>
 					</Grid>
 				</Paper>
+				<ProjectsBox></ProjectsBox>
 		  		<HabilitiesBox></HabilitiesBox>
 		  		<ExperiencesBox></ExperiencesBox>
 		  		<StudiesBox></StudiesBox>
+		  		<CertificatesBox></CertificatesBox>
 		  		<ContactBox></ContactBox>
 			</Grid>
 		  </Grow>
