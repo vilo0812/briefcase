@@ -238,8 +238,8 @@ const projects  = [
 		description:"Pequeño aplicación de que simula una cartera virtual hecha para practicar",
 		github:"https://github.com/vilo0812/myWallet",
 		host:{
-			host_active: false,
-			direction: "",
+			host_active: true,
+			direction: "https://vilowebmywallet.herokuapp.com/",
 			user_active:false,
 			user: "",
 			password: "",
