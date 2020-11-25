@@ -35,11 +35,11 @@ const projects  = [
 		description:"Sistema de seguimiento sobre las personas que van a ingresar a alguna de las muchas dependencias del edificio de la zona educativa del estado Guárico.",
 		github:"https://github.com/vilo0812/zonaeducativa",
 		host:{
-			host_active: false,
-			direction: "",
-			user_active:false,
-			user: "",
-			password: "",
+			host_active: true,
+			direction: "https://zona-educativa.herokuapp.com/",
+			user_active:true,
+			user: "gabriel.viloria0812@gmail.com",
+			password: "1234",
 		}
 	},
 	{
