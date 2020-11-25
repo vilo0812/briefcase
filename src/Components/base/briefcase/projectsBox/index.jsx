@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
   projects: {
   	margin : '5px',
   	width : '400px',
-  	minHeight : '500px'
+  	minHeight : '510px'
   },
   margin:{
   	marginLeft : '0.5px'
@@ -34,6 +34,9 @@ const useStyles = makeStyles(theme => ({
   media: {
     height: 140,
   },
+  technology:{
+  	fontWeight : 'bolder'
+  }
 }));
 const ProjectsBox = () => {
 	//const
@@ -74,6 +77,36 @@ const ProjectsBox = () => {
 				          <Typography gutterBottom variant="h5" component="h2">
 				            {item.title}
 				          </Typography>
+				          <ul>
+				          {
+				      		item.technology.backend.active_language === true ? (
+				      			<li>
+					      			<Typography className={classes.technology} gutterBottom variant="caption" component="block">
+					      				{`backend hecho en el lenguaje ${item.technology.backend.language}`}
+					      				{
+					      					item.technology.backend.active_framework === true ? (
+					      					 ` con el framework ${item.technology.backend.framework}`
+					      					) : ("")
+					      				}
+					      			</Typography>
+					      		</li>
+				      		) : ("")
+					      }
+				          {
+				      		item.technology.frontend.active_language === true ? (
+				      			<li>
+					      			<Typography className={classes.technology} gutterBottom variant="caption" component="block">
+					      				{`frontend hecho en el lenguaje ${item.technology.frontend.language}`}
+					      				{
+					      					item.technology.frontend.active_framework === true ? (
+					      					 ` con el framework ${item.technology.frontend.framework}`
+					      					) : ("")
+					      				}
+					      			</Typography>
+				      			</li>
+				      		) : ("")
+					      }
+					      </ul>
 				          <Typography variant="body2" color="subtitle1" component="p">
 				            {item.description}
 				          </Typography>

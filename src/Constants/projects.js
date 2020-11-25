@@ -1,11 +1,38 @@
-import {backgroundZonaEducativaLogin,backgroundWeatherApp,backgroundPokeApp} from "./images.js"
+import {
+	backgroundZonaEducativaLogin,
+	backgroundWeatherApp,
+	backgroundPokeApp,
+	backgroundCarrera,
+	// backgroundSAVURG,
+	backgroundTasksJquery,
+	backgroundWalletReact,
+	backgroundManejoOrdenDeCompra,
+	backgroundStreetcasting,
+	backgroundCasalira,
+	backgroundMatematicos,
+	backgroundInterarco,
+} from "./images.js"
 const projects  = [
 	{
+		title:"Sistema de Control de Permanencias de la Zona Educativa",
 		img:[
 		backgroundZonaEducativaLogin
 		],
-		title:"Sistema de Control de Permanencias de la Zona Educativa",
-		description:"Desarrollo completo de un sistema de seguimiento sobre las personas que van a ingresar a alguna de las muchas dependencias del edificio de la zona educativa del estado Guárico, ya sea por motivos de : visita personal, asistencia a una vídeo conferencia, entre otros. Almacenando un registro de las visitas que hayan realizado en el edificio, además que permitirá imprimir tickets con la dirección de la dependencia a al que deseas ingresar brindando un apoyo a la seguridad del edifico.",
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:true,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"vue"
+			},
+		},
+		description:"Sistema de seguimiento sobre las personas que van a ingresar a alguna de las muchas dependencias del edificio de la zona educativa del estado Guárico.",
 		github:"https://github.com/vilo0812/zonaeducativa",
 		host:{
 			host_active: false,
@@ -16,10 +43,82 @@ const projects  = [
 		}
 	},
 	{
+		title:"Sistema de Registro municipal de la Carrera Bruno Carrasquel del estado Guárico",
+		img:[
+		backgroundCarrera
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:true,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"vue"
+			},
+		},
+		description:"sistema que permite el registro de los estudiantes de todos los municipios del estado guarico en la carrera bruno carrasquel",
+		github:"https://github.com/vilo0812/carrera4k",
+		host:{
+			host_active: false,
+			direction: "",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	{
+		title:"Sistema de Manejo de Orden de Compra",
+		img:[
+		backgroundManejoOrdenDeCompra
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:true,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"react"
+			},
+		},
+		description:"Pequeño test como parte de un proceso de selección para una empresa colombiana llamada The Factory",
+		github:"https://github.com/vilo0812/carrera4k",
+		host:{
+			host_active: false,
+			direction: "",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	{
+		title:"weather app",
 		img:[
 		backgroundWeatherApp
 		],
-		title:"weather app",
+		technology:{
+			backend: {
+				active_language:false,
+				language:"",
+				active_framework:false,
+				framework:""
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"react"
+			},
+		},
 		description:"Sistema que permite visualizar el clima de distintas partes del mundo",
 		github:"https://github.com/vilo0812/weather-app",
 		host:{
@@ -31,15 +130,232 @@ const projects  = [
 		}
 	},
 	{
+		title:"poke app",
 		img:[
 		backgroundPokeApp
 		],
-		title:"poke app",
+		technology:{
+			backend: {
+				active_language:false,
+				language:"",
+				active_framework:false,
+				framework:""
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"react"
+			},
+		},
 		description:"Sistema que permite visualizar de los caracteres jugables del juego de pokemon con sus detalles",
 		github:"https://github.com/vilo0812/poke-app",
 		host:{
 			host_active: true,
 			direction: "https://viloweb-poke-app.netlify.app/",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	// {
+	// 	title:"Sistema de Aula Virtual para la Universidad Romulo Gallegos",
+	// 	img:[
+	// 	backgroundSAVURG
+	// 	],
+	// 	technology:{
+	// 		backend: {
+	// 			active_language:true,
+	// 			language:"php",
+	// 			active_framework:true,
+	// 			framework:"laravel"
+	// 		},
+	// 		frontend: {
+	// 			active_language:true,
+	// 			language:"javascript",
+	// 			active_framework:true,
+	// 			framework:"react"
+	// 		},
+	// 	},
+	// 	description:"sistema que ayudara a la realización de las tareas a distancia de la Universidad Romulo Gallegos",
+	// 	github:"https://github.com/vilo0812/savurg",
+	// 	host:{
+	// 		host_active: false,
+	// 		direction: "",
+	// 		user_active:false,
+	// 		user: "",
+	// 		password: "",
+	// 	}
+	// },
+	{
+		title:"Pequeña app web de tareas con php, jquery y ajax",
+		img:[
+		backgroundTasksJquery
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:false,
+				framework:""
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"jquery"
+			},
+		},
+		description:"Pequeño aplicación de tareas que basicamente un pequeño crud que se hizo para practicar las tecnologias de jquery y ajax",
+		github:"https://github.com/vilo0812/task-app-php-jquery-ajax",
+		host:{
+			host_active: false,
+			direction: "",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	{
+		title:"Laravel-react simple practice about a virtual wallet",
+		img:[
+		backgroundWalletReact
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:false,
+				framework:""
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"react"
+			},
+		},
+		description:"Pequeño aplicación de que simula una cartera virtual hecha para practicar",
+		github:"https://github.com/vilo0812/myWallet",
+		host:{
+			host_active: false,
+			direction: "",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	{
+		title:"CasaLira",
+		img:[
+		backgroundCasalira
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:false,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"vue"
+			},
+		},
+		description:"Desarrollo de los modulos de garantias que ofrecia casalira",
+		github:"",
+		host:{
+			host_active: false,
+			direction: "",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	{
+		title:"StreetCasting",
+		img:[
+		backgroundStreetcasting
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:false,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"vue"
+			},
+		},
+		description:"Desarrollo de los 8 cruds (backend y frontend) del sistema web StreetCasting",
+		github:"",
+		host:{
+			host_active: false,
+			direction: "",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	{
+		title:"matematicos",
+		img:[
+		backgroundMatematicos
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:false,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"vue"
+			},
+		},
+		description:"Desarrollo de una gran parte del backend del sistema web Matematicos",
+		github:"",
+		host:{
+			host_active: false,
+			direction: "",
+			user_active:false,
+			user: "",
+			password: "",
+		}
+	},
+	{
+		title:"interárco",
+		img:[
+		backgroundInterarco
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:false,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"vue"
+			},
+		},
+		description:"actualización del sistema interárco a la versión de laravel 7",
+		github:"",
+		host:{
+			host_active: false,
+			direction: "",
 			user_active:false,
 			user: "",
 			password: "",
