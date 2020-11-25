@@ -61,7 +61,7 @@ const projects  = [
 				framework:"vue"
 			},
 		},
-		description:"sistema que permite el registro de los estudiantes de todos los municipios del estado guarico en la carrera bruno carrasquel",
+		description:"sistema que permite el registro de los estudiantes de todos los municipios del estado guárico en la carrera bruno carrasquel",
 		github:"https://github.com/vilo0812/carrera4k",
 		host:{
 			host_active: false,
@@ -148,7 +148,7 @@ const projects  = [
 				framework:"react"
 			},
 		},
-		description:"Sistema que permite visualizar de los caracteres jugables del juego de pokemon con sus detalles",
+		description:"Sistema que permite visualizar de los pokemones del juego de pokemón con sus detalles",
 		github:"https://github.com/vilo0812/poke-app",
 		host:{
 			host_active: true,
@@ -206,7 +206,7 @@ const projects  = [
 				framework:"jquery"
 			},
 		},
-		description:"Pequeño aplicación de tareas que basicamente un pequeño crud que se hizo para practicar las tecnologias de jquery y ajax",
+		description:"Pequeño aplicación de tareas que básicamente un pequeño crud que se hizo para practicar las tecnologías de jquery y ajax",
 		github:"https://github.com/vilo0812/task-app-php-jquery-ajax",
 		host:{
 			host_active: false,
@@ -264,7 +264,7 @@ const projects  = [
 				framework:"vue"
 			},
 		},
-		description:"Desarrollo de los modulos de garantias que ofrecia casalira",
+		description:"Desarrollo de los modulo de garantías del sistema de Casalira",
 		github:"",
 		host:{
 			host_active: false,
@@ -293,7 +293,7 @@ const projects  = [
 				framework:"vue"
 			},
 		},
-		description:"Desarrollo de los 8 cruds (backend y frontend) del sistema web StreetCasting",
+		description:"Desarrollo de los 8 CRUDs (backend y frontend) del sistema web StreetCasting",
 		github:"",
 		host:{
 			host_active: false,
