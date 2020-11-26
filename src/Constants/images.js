@@ -9,7 +9,7 @@ import background_contact from "./../Assets/images/contact.jpg"
 import background_ing from "./../Assets/images/ingenieria-informatica.jpg"
 import background_bachi from "./../Assets/images/diploma.png"
 import background_fundabit from "./../Assets/images/fundabit.jpg"
-import background_next_nation from "./../Assets/images/nextNation.jpeg"
+import background_next_nation from "./../Assets/images/nextNation.jpg"
 import background_TFHKACO from "./../Assets/images/thfhkaco.jpg"
 //fondos de los carruceles de projects
 import background_zona_educativa_login from "./../Assets/images/projects/zona_educativa/image_principal.png"

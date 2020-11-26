@@ -3,11 +3,11 @@ const xp  = [
 	{
 		img:backgroundTFHKACO,
 		title:"The Factory HKA Colombia",
-		rol:"Desarrollador Web Full Stack",
+		rol:"Desarrollador Full Stack",
 		date:" Septiembre 2020 -",
 		tasks:[
-			"desarrollar los módulos de los proyectos internos de la empresa",
-			"desarrollo de innovaciones de los procesos que realiza la empresa"
+			"Desarrollar los módulos de los proyectos internos de la empresa",
+			"Desarrollo de innovaciones de los procesos que realiza la empresa"
 
 		]
 	},
@@ -29,7 +29,7 @@ const xp  = [
 		img:backgroundFundabit,
 		title:"Zona Educativa FUNDABIT",
 		rol:"Desarrollador Web Full Stack",
-		date:" Septiembre 2019 - febrero 2020",
+		date:" Septiembre 2019 - Febrero 2020",
 		tasks:[
 			"Implementar un sistema para el premiar y registrar participantes de la carrera municipal Bruno Carrasquel 1 y 4  kilómetros(página web - octubre 2019)",
 			"Implementar un sistema para la recolección de datos de los profesores jubilados en el área de cultura (página web - noviembre 2019)",

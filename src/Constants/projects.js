@@ -32,7 +32,7 @@ const projects  = [
 				framework:"react"
 			},
 		},
-		description:"Pequeño test como parte de un proceso de selección para una empresa colombiana llamada The Factory",
+		description:"Pequeño test como parte de un proceso de selección la empresa internacional The Factory HKA en su sucursal en Colombia",
 		github:"https://github.com/vilo0812/carrera4k",
 		host:{
 			host_active: true,
@@ -333,7 +333,7 @@ const projects  = [
 		}
 	},
 	{
-		title:"interárco",
+		title:"InterArcó",
 		img:[
 		backgroundInterarco
 		],
@@ -351,7 +351,7 @@ const projects  = [
 				framework:"vue"
 			},
 		},
-		description:"actualización del sistema interárco a la versión de laravel 7",
+		description:"Actualización del sistema interárco a la versión de laravel 7",
 		github:"",
 		host:{
 			host_active: false,
