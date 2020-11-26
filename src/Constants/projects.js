@@ -14,6 +14,35 @@ import {
 } from "./images.js"
 const projects  = [
 	{
+		title:"Sistema de Manejo de Orden de Compra",
+		img:[
+		backgroundManejoOrdenDeCompra
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:true,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"react"
+			},
+		},
+		description:"Pequeño test como parte de un proceso de selección para una empresa colombiana llamada The Factory",
+		github:"https://github.com/vilo0812/carrera4k",
+		host:{
+			host_active: true,
+			direction: "https://orden-compra-venta.herokuapp.com/",
+			user_active:true,
+			user: "admin@gmail.com",
+			password: "123456",
+		}
+	},
+	{
 		title:"Sistema de Control de Permanencias de la Zona Educativa",
 		img:[
 		backgroundZonaEducativaLogin
@@ -64,37 +93,8 @@ const projects  = [
 		description:"sistema que permite el registro de los estudiantes de todos los municipios del estado guárico en la carrera bruno carrasquel",
 		github:"https://github.com/vilo0812/carrera4k",
 		host:{
-			host_active: false,
-			direction: "",
-			user_active:false,
-			user: "",
-			password: "",
-		}
-	},
-	{
-		title:"Sistema de Manejo de Orden de Compra",
-		img:[
-		backgroundManejoOrdenDeCompra
-		],
-		technology:{
-			backend: {
-				active_language:true,
-				language:"php",
-				active_framework:true,
-				framework:"laravel"
-			},
-			frontend: {
-				active_language:true,
-				language:"javascript",
-				active_framework:true,
-				framework:"react"
-			},
-		},
-		description:"Pequeño test como parte de un proceso de selección para una empresa colombiana llamada The Factory",
-		github:"https://github.com/vilo0812/carrera4k",
-		host:{
-			host_active: false,
-			direction: "",
+			host_active: true,
+			direction: "https://carrera4k.herokuapp.com/",
 			user_active:false,
 			user: "",
 			password: "",
