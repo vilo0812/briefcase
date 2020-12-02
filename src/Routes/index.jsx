@@ -4,7 +4,7 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import Briefcase from './../Components/views/Briefcase'
+import Briefcase from './../Views/Briefcase'
 import ProjectsBox from './../Components/base/briefcase/projectsBox'
 import DashboardBox from './../Components/base/briefcase/dashboardBox'
 import HabilitiesBox from './../Components/base/briefcase/habilitiesBox'
