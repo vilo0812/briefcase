@@ -24,6 +24,7 @@ import background_streetcasting from "./../Assets/images/projects/streetcasting/
 import background_casalira from "./../Assets/images/projects/casalira/casalira.png"
 import background_matematicos from "./../Assets/images/projects/matematicos/matematicos1.png"
 import background_interarco from "./../Assets/images/projects/interarco/interárco.png"
+import alcaldia_aragua from "./../Assets/images/projects/AlcaldiaAraguaMunicipioSucre/alcaldia.png"
 
 //exports
 export const logoViloWeb = logo_vilo_web
@@ -47,8 +48,9 @@ export const backgroundWalletReact = background_wallet_react
 export const backgroundManejoOrdenDeCompra = background_manejo_orden_de_compra
 export const backgroundStreetcasting = background_streetcasting
 export const backgroundCasalira = background_casalira
-export const backgroundMatematicos = background_matematicos
+export const backgroundMatematicos = background_matematicos 
 export const backgroundInterarco = background_interarco
+export const alcaldiaAragua = alcaldia_aragua
 
 
 

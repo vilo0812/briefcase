@@ -11,6 +11,7 @@ import {
 	backgroundCasalira,
 	backgroundMatematicos,
 	backgroundInterarco,
+	alcaldiaAragua
 } from "./images.js"
 const projects  = [
 	{
@@ -43,6 +44,35 @@ const projects  = [
 		}
 	},
 	{
+		title:"Sistema para la alcaldia de Aragua Municipio Sucre",
+		img:[
+		alcaldiaAragua
+		],
+		technology:{
+			backend: {
+				active_language:true,
+				language:"php",
+				active_framework:true,
+				framework:"laravel"
+			},
+			frontend: {
+				active_language:true,
+				language:"javascript",
+				active_framework:true,
+				framework:"vue"
+			},
+		},
+		description:"Sistema de Registro de Equipos Alcaldia del Estado Municipio Sucre",
+		github:"https://github.com/vilo0812/alcaldia-aragua-sucre-project",
+		host:{
+			host_active: true,
+			direction: "https://alcaldia-aragua-sucre-project.netlify.app/login",
+			user_active:true,
+			user: "admin@gmail.com",
+			password: "1234",
+		}
+	},
+	{
 		title:"Sistema de Control de Permanencias de la Zona Educativa",
 		img:[
 		backgroundZonaEducativaLogin
@@ -61,7 +91,7 @@ const projects  = [
 				framework:"vue"
 			},
 		},
-		description:"Sistema de seguimiento sobre las personas que van a ingresar a alguna de las muchas dependencias del edificio de la zona educativa del estado Guárico.",
+		description:"Sistema de seguimiento para visitas del edificio de la zona educativa del estado Guárico.",
 		github:"https://github.com/vilo0812/zonaeducativa",
 		host:{
 			host_active: true,
@@ -90,7 +120,7 @@ const projects  = [
 				framework:"vue"
 			},
 		},
-		description:"sistema que permite el registro de los estudiantes de todos los municipios del estado guárico en la carrera bruno carrasquel",
+		description:"sistema de registro de los estudiantes de todos los municipios del estado guárico en la carrera bruno carrasquel",
 		github:"https://github.com/vilo0812/carrera4k",
 		host:{
 			host_active: true,
@@ -122,7 +152,7 @@ const projects  = [
 		description:"Sistema que permite visualizar el clima de distintas partes del mundo",
 		github:"https://github.com/vilo0812/weather-app",
 		host:{
-			host_active: true,
+			host_active: false,
 			direction: "https://viloweb-weather-app.netlify.app/",
 			user_active:false,
 			user: "",

@@ -1,5 +1,19 @@
 const rows  = [
 	{
+	tool:'scrum',
+	low: true,
+	medium: true,
+	high: true,
+	expert: true,
+	},	
+	{
+	tool:'kambas',
+	low: true,
+	medium: true,
+	high: true,
+	expert: true,
+	},	
+	{
 	tool:'html',
 	low: true,
 	medium: true,
